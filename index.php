@@ -65,7 +65,7 @@
           </div>
           <div class="card-body text-center">
             <!-- Profile picture image-->
-            <img class="img-account-profile rounded-circle mb-2" src="https://storage.googleapis.com/digitalent_satriafdt/profile.jpg" alt="Profile Image" width="144" height="144">
+            <img class="img-account-profile rounded-circle mb-2" src="https://storage.googleapis.com/dicoding-satriafdt/profile.jpg" alt="Profile Image" width="144" height="144">
             <div class="big font-strong mb-12">Satria Finandita</div>
             <div class="small font-italic text-muted mb-12">Junior Web Developer</div>
           </div>
@@ -138,17 +138,17 @@
             <div class="row">
               <div class="col-sm-4">
                 <a href="https://github.com/satriafdt">
-                  <img class="rounded-circle mb-2" src="https://storage.googleapis.com/digitalent_satriafdt/logo-github.png" alt="Github" width="60" height="60">
+                  <img class="rounded-circle mb-2" src="https://storage.googleapis.com/dicoding-satriafdt/logo-github.png" alt="Github" width="60" height="60">
                 </a>
               </div>
               <div class="col-sm-4">
                 <a href="https://www.linkedin.com/in/satria-finandita-4a9909118">
-                  <img class="rounded-circle mb-2" src="https://storage.googleapis.com/digitalent_satriafdt/logo-linkedin.png" alt="Linkedin" width="60" height="60">
+                  <img class="rounded-circle mb-2" src="https://storage.googleapis.com/dicoding-satriafdt/logo-linkedin.png" alt="Linkedin" width="60" height="60">
                 </a>
               </div>
               <div class="col-sm-4">
                 <a href="https://twitter.com/satriafdt">
-                  <img class="rounded-circle mb-2" src="https://storage.googleapis.com/digitalent_satriafdt/logo-twitter.png" alt="Twitter" width="60" height="60">
+                  <img class="rounded-circle mb-2" src="https://storage.googleapis.com/dicoding-satriafdt/logo-twitter.png" alt="Twitter" width="60" height="60">
                 </a>
               </div>
             </div>

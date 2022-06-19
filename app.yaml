@@ -1,16 +1,20 @@
-runtime: php
-env: flex
+runtime: php74
+api_version: 1
+threadsafe: true
 
-runtime_config:
-  document_root: web
-
-# This sample incurs costs to run on the App Engine flexible environment.
-# The settings below are to reduce costs during testing and are not appropriate
-# for production use. For more information, see:
-# https://cloud.google.com/appengine/docs/flexible/php/configuring-your-app-with-app-yaml
-manual_scaling:
-  instances: 1
-resources:
-  cpu: 1
-  memory_gb: 0.5
-  disk_size_gb: 10
+handlers:
+- url: /
+  static_files: index.php
+  upload: index.php
+- url: /assets/dist/css/bootstrap.min.css
+  static_files: bootstrap.min.css
+  upload: bootstrap.min.css
+- url: /assets/dist/css/starter-template.css
+  static_files: starter-template.css
+  upload: starter-template.css
+- url: /assets/js/vendor/jquery.slim.min.js
+  static_files: jquery.slim.min.js
+  upload: jquery.slim.min.js
+- url: /assets/dist/js/bootstrap.bundle.min.js
+  static_files: bootstrap.bundle.min.js
+  upload: bootstrap.bundle.min.js
