@@ -12,7 +12,7 @@
   <link rel="canonical" href="https://getbootstrap.com/docs/4.6/examples/starter-template/">
 
   <!-- Bootstrap core CSS -->
-  <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="bootstrap.min.css" rel="stylesheet">
 
   <style>
     .bd-placeholder-img {
@@ -33,7 +33,7 @@
 
 
   <!-- Custom styles for this template -->
-  <link href="assets/dist/css/starter-template.css" rel="stylesheet">
+  <link href="starter-template.css" rel="stylesheet">
 </head>
 
 <body>
@@ -161,9 +161,9 @@
 
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script>
-    window.jQuery || document.write('<script src="assets/js/vendor/jquery.slim.min.js"><\/script>')
+    window.jQuery || document.write('<script src="jquery.slim.min.js"><\/script>')
   </script>
-  <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="bootstrap.bundle.min.js"></script>
 
 
 </body>

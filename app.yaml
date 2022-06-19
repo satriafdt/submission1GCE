@@ -1,20 +1,19 @@
 runtime: php74
-api_version: 1
-threadsafe: true
+env: flex
+
+runtime_config:
+  document_root: web
 
 handlers:
 - url: /
   static_files: index.php
   upload: index.php
-- url: /assets/dist/css/bootstrap.min.css
+- url: /bootstrap.min.css
   static_files: bootstrap.min.css
   upload: bootstrap.min.css
-- url: /assets/dist/css/starter-template.css
+- url: /starter-template.css
   static_files: starter-template.css
   upload: starter-template.css
-- url: /assets/js/vendor/jquery.slim.min.js
-  static_files: jquery.slim.min.js
-  upload: jquery.slim.min.js
-- url: /assets/dist/js/bootstrap.bundle.min.js
+- url: /bootstrap.bundle.min.js
   static_files: bootstrap.bundle.min.js
   upload: bootstrap.bundle.min.js
