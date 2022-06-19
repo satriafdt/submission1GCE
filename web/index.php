@@ -12,7 +12,7 @@
   <link rel="canonical" href="https://getbootstrap.com/docs/4.6/examples/starter-template/">
 
   <!-- Bootstrap core CSS -->
-  <link href="bootstrap.min.css" rel="stylesheet">
+  <link href="https://storage.googleapis.com/dicoding-satriafdt/webasset/bootstrap.min.css" rel="stylesheet">
 
   <style>
     .bd-placeholder-img {
@@ -33,7 +33,7 @@
 
 
   <!-- Custom styles for this template -->
-  <link href="starter-template.css" rel="stylesheet">
+  <link href="https://storage.googleapis.com/dicoding-satriafdt/webasset/starter-template.css" rel="stylesheet">
 </head>
 
 <body>
@@ -163,7 +163,7 @@
   <script>
     window.jQuery || document.write('<script src="jquery.slim.min.js"><\/script>')
   </script>
-  <script src="bootstrap.bundle.min.js"></script>
+  <script src="https://storage.googleapis.com/dicoding-satriafdt/webasset/bootstrap.bundle.min.js"></script>
 
 
 </body>
