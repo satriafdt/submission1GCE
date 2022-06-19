@@ -3,17 +3,3 @@ env: flex
 
 runtime_config:
   document_root: web
-
-handlers:
-- url: /
-  static_files: index.php
-  upload: index.php
-- url: /bootstrap.min.css
-  static_files: bootstrap.min.css
-  upload: bootstrap.min.css
-- url: /starter-template.css
-  static_files: starter-template.css
-  upload: starter-template.css
-- url: /bootstrap.bundle.min.js
-  static_files: bootstrap.bundle.min.js
-  upload: bootstrap.bundle.min.js
